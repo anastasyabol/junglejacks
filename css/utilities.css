@@ -61,7 +61,7 @@
   flex-direction: column;
   flex-basis: 100%;
   flex: 1;
-  height: auto;
+  height: 43vh;
 }
 
 .flex-columns .column .column-1,
