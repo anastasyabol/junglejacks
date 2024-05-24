@@ -418,7 +418,7 @@ img {
   .logo {
     height: 60%;
   }
-  .navbar .hidden {
+  .navbar .hidden-tablet {
     display: none;
   }
   .flex-columns .column {
