@@ -424,6 +424,9 @@ img {
   .flex-columns .column {
     height: auto;
   }
+  .packages .flex-items > div {
+    padding: 5px;
+  }
 }
 
 @media (min-width: 769px) {
