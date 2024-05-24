@@ -61,12 +61,27 @@ img {
 
 .navbar a {
   color: #fff;
-  padding: 10px 20px;
+  padding: 10px 10px;
   margin: 0 5px;
+}
+
+.navbar .book-link a {
+  color: #fff;
+  background-color: #28a745;
+  border: none;
+  border-radius: 5px;
+  padding: 10 15px;
 }
 
 .navbar a:hover {
   border-bottom: #28a745 2px solid;
+}
+
+.navbar .book-link a:hover {
+  color: #333;
+  background-color: #f1e81e;
+  border-radius: 5px;
+  border: none;
 }
 
 .navbar ul {
@@ -383,6 +398,23 @@ img {
 
 .faq-section .flex-items > div {
   padding: 15px;
+}
+
+@media screen and (min-width: 769px) and (max-width: 1260px) {
+  .navbar {
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+  }
+  .navbar li {
+    margin: auto;
+  }
+  .logo {
+    height: 60%;
+  }
+  .navbar.hidden {
+    display: none;
+  }
 }
 
 @media (min-width: 769px) {
