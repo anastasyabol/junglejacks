@@ -421,6 +421,9 @@ img {
   .navbar.hidden {
     display: none;
   }
+  .flex-columns .column {
+    height: auto;
+  }
 }
 
 @media (min-width: 769px) {
