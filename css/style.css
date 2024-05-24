@@ -418,7 +418,7 @@ img {
   .logo {
     height: 60%;
   }
-  .navbar.hidden {
+  .navbar .hidden {
     display: none;
   }
   .flex-columns .column {
@@ -479,7 +479,9 @@ img {
   .hero {
     padding-top: 120px;
   }
-
+  .hero.party {
+    height: 85vh;
+  }
   .flex-items {
     flex-direction: column;
   }
