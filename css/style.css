@@ -90,9 +90,15 @@ img {
 }
 
 /* Header */
-.hero {
+.hero.index {
   background: url("../images/jj-main.jpeg") no-repeat center center/cover;
   height: 100vh;
+  position: relative;
+  color: #fff;
+}
+.hero {
+  background: url("../images/jj-main.jpeg") no-repeat center top/cover;
+  height: 60vh;
   position: relative;
   color: #fff;
 }
