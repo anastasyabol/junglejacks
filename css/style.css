@@ -522,4 +522,14 @@ img {
   .navbar ul {
     flex-direction: column;
   }
+
+  .hero.party {
+    height: 100vh;
+  }
+  .hero.party .content p {
+    text-align: center;
+    font-size: 18px;
+    max-width: 800px;
+    margin: 10px 0 30px;
+  }
 }
