@@ -452,6 +452,7 @@ img {
     background-color: #333; /* Set background color when the menu is open */
     transition: background-color 0.5s;
   }
+
   .navbar li {
     margin: auto;
   }
@@ -503,5 +504,11 @@ img {
   /* footer on mobile */
   .footer {
     height: 13vh;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar ul {
+    flex-direction: column;
   }
 }
